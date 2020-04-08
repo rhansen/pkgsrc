@@ -695,13 +695,13 @@ _USE_GCC_SHLIB?=	yes
 # We require gcc-9.x in the lang/gcc9-* directory.
 #
 _GCC_PKGBASE=		gcc9
-.  if ${PKGPATH} == lang/gcc9
+.  if ${PKGPATH} == joyent/gcc9
 _IGNORE_GCC=		yes
 MAKEFLAGS+=		_IGNORE_GCC=yes
 .  endif
 .  if !defined(_IGNORE_GCC) && !empty(_LANGUAGES.gcc)
-_GCC_PKGSRCDIR=		../../lang/gcc9
-_GCC_DEPENDENCY=	gcc9>=${_GCC_REQD}:../../lang/gcc9
+_GCC_PKGSRCDIR=		../../joyent/gcc9
+_GCC_DEPENDENCY=	gcc9>=${_GCC_REQD}:../../joyent/gcc9
 .    if !empty(_LANGUAGES.gcc:Mc++) || \
         !empty(_LANGUAGES.gcc:Mfortran) || \
         !empty(_LANGUAGES.gcc:Mfortran77) || \
@@ -1073,7 +1073,7 @@ PREPEND_PATH+=	${_GCC_DIR}/bin
 # Add dependency on GCC libraries if requested.
 .if (defined(_USE_GCC_SHLIB) && !empty(_USE_GCC_SHLIB:M[Yy][Ee][Ss])) && !empty(USE_PKGSRC_GCC_RUNTIME:M[Yy][Ee][Ss])
 #  Special case packages which are themselves a dependency of gcc runtime.
-.  if ${PKGPATH} != devel/binutils && \
+.  if ${PKGPATH} != devel/binutils && empty(PKGPATH:Mjoyent/gcc9) && \
       empty(PKGPATH:Mlang/gcc4?) && empty(PKGPATH:Mlang/gcc[5-9])
 .    if !empty(_GCC_PKGBASE:Mgcc48)
 .      include "../../lang/gcc48-libs/buildlink3.mk"
@@ -1087,6 +1087,8 @@ PREPEND_PATH+=	${_GCC_DIR}/bin
 .      include "../../lang/gcc7-libs/buildlink3.mk"
 .    elif !empty(_GCC_PKGBASE:Mgcc8)
 .      include "../../lang/gcc8-libs/buildlink3.mk"
+.    elif !empty(_GCC_PKGBASE:Mgcc9)
+.      include "../../joyent/gcc9-libs/buildlink3.mk"
 .    else
 PKG_FAIL_REASON+=	"No USE_PKGSRC_GCC_RUNTIME support for ${CC_VERSION}"
 .    endif
