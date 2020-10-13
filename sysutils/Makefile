@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.902 2020/10/11 16:40:39 nia Exp $
+# $NetBSD: Makefile,v 1.904 2020/10/13 03:52:29 maya Exp $
 #
 
 COMMENT=	System utilities
@@ -184,6 +184,7 @@ SUBDIR+=	fakeroot
 SUBDIR+=	fam
 SUBDIR+=	fastfs
 SUBDIR+=	fatback
+SUBDIR+=	fd-find
 SUBDIR+=	fdtools
 SUBDIR+=	fdupes
 SUBDIR+=	fff
@@ -675,6 +676,7 @@ SUBDIR+=	u-boot-orangepi-2
 SUBDIR+=	u-boot-orangepi-lite
 SUBDIR+=	u-boot-orangepi-lite2
 SUBDIR+=	u-boot-orangepi-one
+SUBDIR+=	u-boot-orangepi-pc
 SUBDIR+=	u-boot-orangepi-plus2e
 SUBDIR+=	u-boot-orangepi-zero
 SUBDIR+=	u-boot-orangepi-zero-plus

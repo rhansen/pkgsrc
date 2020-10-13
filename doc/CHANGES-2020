@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-2020,v 1.5737 2020/10/12 12:04:42 pin Exp $
+$NetBSD: CHANGES-2020,v 1.5751 2020/10/13 11:16:32 jperkin Exp $
 
 Changes to the packages collection and infrastructure in 2020:
 
@@ -8510,3 +8510,23 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated security/py-passlib to 1.7.4 [adam 2020-10-12]
 	Updated net/py-smb to 1.2.4 [adam 2020-10-12]
 	Updated audio/ncspot to 0.2.3 [pin 2020-10-12]
+	Updated net/dhcpcd to 9.3.1 [roy 2020-10-12]
+	Updated net/freeDiameter to 1.5.0 [wiz 2020-10-12]
+	Updated net/rclone to 1.53.1 [leot 2020-10-12]
+	Updated textproc/oniguruma to 6.9.6rc2 [kim 2020-10-12]
+	Added net/doh version 0.1.20200514 [kim 2020-10-12]
+	Updated www/firefox to 81.0.2 [maya 2020-10-12]
+	Updated www/firefox-l10n to 81.0.2 [maya 2020-10-12]
+	Added sysutils/fd-find version 8.1.1 [maya 2020-10-13]
+	Added devel/go-walker version 0.1.1 [maya 2020-10-13]
+	Updated sysutils/fzf to 0.23.1 [maya 2020-10-13]
+	Added sysutils/u-boot-orangepi-pc version 2018.11 [maya 2020-10-13]
+	Updated databases/openldap to 2.4.54 [adam 2020-10-13]
+	Updated www/py-aiohttp to 3.6.3 [adam 2020-10-13]
+	Updated mail/swaks to 20201010.0 [schmonz 2020-10-13]
+	Added textproc/py-sgmllib3k version 1.0.0 [schmonz 2020-10-13]
+	Updated devel/py-prompt_toolkit2 to 3.0.8 [adam 2020-10-13]
+	Updated misc/py-sniffio to 1.2.0 [adam 2020-10-13]
+	Updated www/py-httpcore to 0.12.0 [adam 2020-10-13]
+	Updated www/py-httpx to 0.16.1 [adam 2020-10-13]
+	Added shells/shellcheck version 0.7.1 [jperkin 2020-10-13]
