@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.1173 2020/10/13 10:36:59 schmonz Exp $
+# $NetBSD: Makefile,v 1.1175 2020/10/13 12:33:40 schmonz Exp $
 #
 
 COMMENT=	Text processing utilities (does not include desktop publishing)
@@ -857,6 +857,7 @@ SUBDIR+=	py-empy
 SUBDIR+=	py-enchant
 SUBDIR+=	py-eradicate
 SUBDIR+=	py-expat
+SUBDIR+=	py-feedparser5
 SUBDIR+=	py-feedparser
 SUBDIR+=	py-ftfy
 SUBDIR+=	py-generateDS
