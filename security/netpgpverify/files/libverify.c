@@ -1180,6 +1180,8 @@ read_sig_subpackets(pgpv_t *pgp, pgpv_sigpkt_t *sigpkt, uint8_t *p, size_t pktle
 			sigpkt->sig.revoked = *p++ + 1;
 			sigpkt->sig.why_revoked = (char *)(void *)p;
 			break;
+		case 33:
+			break;
 		default:
 			printf("Ignoring unusual/reserved signature subpacket %d\n", subpkt.tag);
 			break;
