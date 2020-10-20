@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-2020,v 1.5833 2020/10/19 18:58:59 adam Exp $
+$NetBSD: CHANGES-2020,v 1.5841 2020/10/20 20:17:19 maya Exp $
 
 Changes to the packages collection and infrastructure in 2020:
 
@@ -8647,3 +8647,13 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated textproc/py-lxml to 4.6.1 [adam 2020-10-19]
 	Updated www/py-urllib3 to 1.25.11 [adam 2020-10-19]
 	Updated www/py-uvicorn to 0.12.2 [adam 2020-10-19]
+	Updated net/unison-snapshot to 2.51.3rc3 [gdt 2020-10-19]
+	Updated textproc/xfce4-dict to 0.8.4 [gutteridge 2020-10-19]
+	Updated time/p5-DateTime-TimeZone to 2.42 [gutteridge 2020-10-20]
+	Updated lang/nodejs to 14.14.0 [adam 2020-10-20]
+	Updated databases/prometheus to 2.22.0 [adam 2020-10-20]
+	Updated sysutils/onefetch to 2.5.0 [pin 2020-10-20]
+	Updated converters/bdf2sfd to 1.1.5 [fcambus 2020-10-20]
+	Updated www/logswan to 2.1.8 [fcambus 2020-10-20]
+	Updated www/firefox to 82.0 [maya 2020-10-20]
+	Updated www/firefox-l10n to 82.0 [maya 2020-10-20]
