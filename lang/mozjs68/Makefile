@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.6 2020/08/31 18:09:51 wiz Exp $
+# $NetBSD: Makefile,v 1.8 2020/10/23 00:21:04 gutteridge Exp $
 
 DISTNAME=	mozjs68_68.6.0.orig
 PKGNAME=	${DISTNAME:S/_/-/:S/.orig//}
@@ -16,7 +16,8 @@ WRKSRC=		${WRKDIR}/firefox-68.6.0/js/src
 USE_TOOLS+=	autoconf213 gmake perl pkg-config
 USE_LANGUAGES=	c c++
 
-GCC_REQD+=	4.8
+# "ERROR: Only GCC 6.1 or newer is supported"
+GCC_REQD+=	6
 
 HAS_CONFIGURE=		yes
 CONFIGURE_DIRS=		build
@@ -66,7 +67,7 @@ post-install:
 
 BUILDLINK_DEPMETHOD.clang=	build
 .include "../../lang/clang/buildlink3.mk"
-RUST_TYPE=	1.34.0
+RUST_REQ=	1.34.0
 .include "../../lang/rust/rust.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../lang/python/tool.mk"
