@@ -1,4 +1,4 @@
-$NetBSD: TODO,v 1.20153 2020/10/25 08:19:46 wiz Exp $
+$NetBSD: TODO,v 1.20155 2020/10/26 09:36:34 schmonz Exp $
 
 Suggested new packages
 ======================
@@ -952,13 +952,11 @@ For possible Perl packages updates, see http://www.NetBSD.org/~wiz/perl.html
 	o py-cassa-1.11.0
 	o py-configparser-5.0.0 [drops python-2.x support]
 	o py-ephem3-3.7.6.0
-	o py-feedparser-6.0.0 [drops python-2.x support, backward-incompatible with 5.x]
 	o py-hgview-1.9.0
 	o py-hypothesis-5.38.0
 	o py-input-pad-1.4.2
 	o py-keybinder-0.3.1
 	o py-markdown-3.2.2 [drops python-2.x support]
-	o py-multidict-5.0.0
 	o py-musicbrainz-0.7.4
 	o py-newt-0.52.20
 	o py-omniORBpy-3.7
