@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.614 2020/10/30 15:47:01 nia Exp $
+# $NetBSD: Makefile,v 1.618 2020/11/10 16:36:15 nia Exp $
 #
 
 COMMENT=	Audio tools
@@ -62,7 +62,6 @@ SUBDIR+=	csound5
 SUBDIR+=	csound5-manual
 SUBDIR+=	csound6
 SUBDIR+=	csound6-manual
-SUBDIR+=	daapd
 SUBDIR+=	dap
 SUBDIR+=	darkice
 SUBDIR+=	deforaos-mixer
@@ -116,6 +115,7 @@ SUBDIR+=	flac2mp3
 SUBDIR+=	flactag
 SUBDIR+=	flite
 SUBDIR+=	fluidsynth
+SUBDIR+=	forked-daapd
 SUBDIR+=	freealut
 SUBDIR+=	freepats
 SUBDIR+=	freeswitch-music
@@ -145,6 +145,7 @@ SUBDIR+=	gqmpeg-skins
 SUBDIR+=	gramofile
 SUBDIR+=	grip
 SUBDIR+=	gsm
+SUBDIR+=	gsound
 SUBDIR+=	gst-plugins0.10-a52
 SUBDIR+=	gst-plugins0.10-alsa
 SUBDIR+=	gst-plugins0.10-cdparanoia
@@ -265,7 +266,6 @@ SUBDIR+=	libsmf
 SUBDIR+=	libsndfile
 SUBDIR+=	libsoxr
 SUBDIR+=	libspiff
-SUBDIR+=	libtunepimp
 SUBDIR+=	libvisual
 SUBDIR+=	libvisual-bmp
 SUBDIR+=	libvisual-plugins

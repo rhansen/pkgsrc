@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.905 2020/10/24 22:40:01 wiz Exp $
+# $NetBSD: Makefile,v 1.915 2020/11/10 18:22:23 nia Exp $
 #
 
 COMMENT=	System utilities
@@ -63,6 +63,7 @@ SUBDIR+=	bkpupsd
 SUBDIR+=	boxbackup-client
 SUBDIR+=	boxbackup-server
 SUBDIR+=	brasero
+SUBDIR+=	broot
 SUBDIR+=	bsdec2-image-upload
 SUBDIR+=	bsdinstall
 SUBDIR+=	bsign
@@ -233,8 +234,14 @@ SUBDIR+=	gkrellm
 SUBDIR+=	gkrellm-est
 SUBDIR+=	gkrellm-server
 SUBDIR+=	gkrellm-share
+SUBDIR+=	gnome-characters
+SUBDIR+=	gnome-control-center
+SUBDIR+=	gnome-font-viewer
 SUBDIR+=	gnome-menus
 SUBDIR+=	gnome-nds-thumbnailer
+SUBDIR+=	gnome-settings-daemon
+SUBDIR+=	gnome-tracker
+SUBDIR+=	gnome-tracker-miners
 SUBDIR+=	gnome-vfs
 SUBDIR+=	gnome-vfsmm
 SUBDIR+=	gnuit
@@ -409,6 +416,7 @@ SUBDIR+=	mtx
 SUBDIR+=	munin-common
 SUBDIR+=	munin-master
 SUBDIR+=	munin-node
+SUBDIR+=	nautilus
 SUBDIR+=	nbase
 SUBDIR+=	ncdu
 SUBDIR+=	ndesk-dbus
@@ -428,6 +436,7 @@ SUBDIR+=	nvramtool
 SUBDIR+=	oak
 SUBDIR+=	onefetch
 SUBDIR+=	open-vm-tools
+SUBDIR+=	openipmi
 SUBDIR+=	openstack_init
 SUBDIR+=	openxenmanager
 SUBDIR+=	osname
@@ -837,6 +846,11 @@ SUBDIR+=	xuvmstat
 SUBDIR+=	ytree
 SUBDIR+=	zabbix
 SUBDIR+=	zabbix-frontend
+SUBDIR+=	zabbix50-agent
+SUBDIR+=	zabbix50-frontend
+SUBDIR+=	zabbix50-java
+SUBDIR+=	zabbix50-proxy
+SUBDIR+=	zabbix50-server
 SUBDIR+=	zidrav
 SUBDIR+=	znapzend
 

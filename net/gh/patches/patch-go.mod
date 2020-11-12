@@ -1,4 +1,4 @@
-$NetBSD: patch-go.mod,v 1.3 2020/09/17 19:33:01 leot Exp $
+$NetBSD: patch-go.mod,v 1.5 2020/11/11 10:20:43 leot Exp $
 
 Bump termenv version to supports more platforms.
 

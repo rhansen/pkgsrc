@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.11 2020/10/14 16:37:26 wiz Exp $
+# $NetBSD: Makefile,v 1.13 2020/11/09 11:33:56 wiz Exp $
 
-DISTNAME=	strawberry-0.8.1
+DISTNAME=	strawberry-0.8.3
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_GITHUB:=strawberrymusicplayer/}
 GITHUB_PROJECT=	strawberry
@@ -49,6 +49,8 @@ post-install:
 
 .include "options.mk"
 .include "../../audio/chromaprint/buildlink3.mk"
+# compiles its own copy, but no detection code in cmake
+#.include "../../audio/taglib/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

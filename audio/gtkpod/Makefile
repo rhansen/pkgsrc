@@ -1,8 +1,8 @@
-# $NetBSD: Makefile,v 1.78 2020/08/31 18:06:33 wiz Exp $
+# $NetBSD: Makefile,v 1.80 2020/11/05 09:07:27 ryoon Exp $
 #
 
 DISTNAME=	gtkpod-1.0.0
-PKGREVISION=	38
+PKGREVISION=	39
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtkpod/}
 
@@ -31,8 +31,6 @@ DEPENDS+=		bash>=3.2.9:../../shells/bash
 
 BUILDLINK_API_DEPENDS.gtk2+=	gtk2+>=2.8.0
 BUILDLINK_API_DEPENDS.libgpod+=	libgpod>=0.7.0
-
-.include "options.mk"
 
 .include "../../audio/libgpod/buildlink3.mk"
 .include "../../audio/libid3tag/buildlink3.mk"
