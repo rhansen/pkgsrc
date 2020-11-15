@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.204 2020/11/13 23:00:13 adam Exp $
+# $NetBSD: Makefile,v 1.207 2020/11/14 21:25:32 he Exp $
 
 DISTNAME=	rustc-1.47.0-src
 PKGNAME=	${DISTNAME:S/rustc/rust/:S/-src//}
@@ -18,7 +18,7 @@ GCC_REQD+=	5
 USE_GCC_RUNTIME=	yes
 USE_LANGUAGES=		c c++11
 USE_LIBTOOL=		yes
-USE_TOOLS+=		bash grep gmake perl:build pkg-config
+USE_TOOLS+=		bash ggrep gmake perl:build pkg-config
 
 # The NetBSD bootstraps are built for NetBSD 8 (because rust doesn't
 # build on 7).  Mark earlier versions as broken.
@@ -317,6 +317,10 @@ CKSUM_CRATES+=	vendor/lzma-sys
 CKSUMS+=	6fd5e9245db34c6f557b8bfcaf03db82fc88c3b06dbfbb5f03b2bcd138983ef9
 CKSUMS+=	5e252578b5d266f6a4c8dc9f71ca7a91536ccb8c5c7d7753b82f12ec886459ef
 
+CKSUM_CRATES+=	vendor/stacker
+CKSUMS+=	37ef9666d048191eeca23d8f7d99cf912b953cc489bf860107aec306b95b2d99
+CKSUMS+=	410f22f5e95860530be1abaaf2e279d2f4226e5c17c2cee302661d8079246b3a
+
 SUBST_CLASSES+=		cksum
 SUBST_STAGE.cksum=	pre-configure
 .for crate in ${CKSUM_CRATES}
@@ -498,6 +502,11 @@ stage0-bootstrap: install
 # \todo Explain why this is limited to a small list of architectures,
 # and in particular why not x86_64.
 DEPENDS+=	compat80>=0:../../emulators/compat80
+.endif
+
+.if (${MACHINE_ARCH} == "powerpc")
+# LLVM needs libatomic for 64-bit atomics on powerpc
+.include "../../devel/libatomic/buildlink3.mk"
 .endif
 
 .if (${OPSYS} == "NetBSD") && \
