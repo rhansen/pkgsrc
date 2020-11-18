@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-2020,v 1.6216 2020/11/17 19:34:06 sjmulder Exp $
+$NetBSD: CHANGES-2020,v 1.6231 2020/11/18 17:35:29 leot Exp $
 
 Changes to the packages collection and infrastructure in 2020:
 
@@ -9143,3 +9143,17 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated www/firefox-l10n to 83.0 [ryoon 2020-11-17]
 	Updated lang/python38 to 3.8.6nb1 [sjmulder 2020-11-17]
 	Updated lang/python37 to 3.7.9nb2 [sjmulder 2020-11-17]
+	Updated www/gitea to 1.12.6 [jperkin 2020-11-18]
+	Updated security/tor-browser to 10.0.5 [wiz 2020-11-18]
+	Added print/tex-vhistory version 1.6.1 [kleink 2020-11-18]
+	Added print/tex-vhistory-doc version 1.6.1 [kleink 2020-11-18]
+	Updated www/firefox78 to 78.5.0 [nia 2020-11-18]
+	Updated www/firefox78-l10n to 78.5.0 [nia 2020-11-18]
+	Updated security/gnupg2 to 2.2.24 [adam 2020-11-18]
+	Added www/go-hugo-bin version 0.78.2 [nikita 2020-11-18]
+	Added net/ucspi-proxy version 1.1 [schmonz 2020-11-18]
+	Updated devel/nss to 3.59 [ryoon 2020-11-18]
+	Added net/ucspi-unix version 1.0 [schmonz 2020-11-18]
+	Updated www/hugo to 0.78.2 [jperkin 2020-11-18]
+	Added net/ucspi-ipc version 0.67 [schmonz 2020-11-18]
+	Updated net/youtube-dl to 20201118 [leot 2020-11-18]
