@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.916 2020/11/12 09:06:42 pin Exp $
+# $NetBSD: Makefile,v 1.918 2020/11/21 13:01:22 nia Exp $
 #
 
 COMMENT=	System utilities
@@ -585,6 +585,7 @@ SUBDIR+=	ruby-serverspec
 SUBDIR+=	ruby-specinfra
 SUBDIR+=	ruby-syslog-logger
 SUBDIR+=	rw
+SUBDIR+=	s6
 SUBDIR+=	safetynet
 SUBDIR+=	salt
 SUBDIR+=	salt-docs
@@ -651,7 +652,6 @@ SUBDIR+=	tkdesk
 SUBDIR+=	tload
 SUBDIR+=	tob
 SUBDIR+=	top
-SUBDIR+=	torsmo
 SUBDIR+=	toshutils
 SUBDIR+=	tpb
 SUBDIR+=	tphdisk

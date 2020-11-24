@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.911 2020/11/10 13:36:51 nia Exp $
+# $NetBSD: Makefile,v 1.913 2020/11/23 14:15:24 pin Exp $
 #
 
 COMMENT=	Graphics tools and libraries
@@ -129,7 +129,6 @@ SUBDIR+=	extrema
 SUBDIR+=	faba-icon-theme
 SUBDIR+=	fbm
 SUBDIR+=	feh
-SUBDIR+=	flickrnet
 SUBDIR+=	fly
 SUBDIR+=	fnlib
 SUBDIR+=	fotoxx
@@ -790,6 +789,7 @@ SUBDIR+=	vid
 SUBDIR+=	viewfax
 SUBDIR+=	viewnior
 SUBDIR+=	vigra
+SUBDIR+=	viu
 SUBDIR+=	vnc2swf
 SUBDIR+=	vp
 SUBDIR+=	vtk
