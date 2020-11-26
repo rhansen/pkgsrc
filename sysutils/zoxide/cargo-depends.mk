@@ -1,4 +1,4 @@
-# $NetBSD: cargo-depends.mk,v 1.1 2020/11/23 09:17:36 pin Exp $
+# $NetBSD: cargo-depends.mk,v 1.1 2020/11/25 11:04:24 pin Exp $
 
 CARGO_CRATE_DEPENDS+=	anyhow-1.0.33
 CARGO_CRATE_DEPENDS+=	askama-0.10.3

@@ -1,4 +1,4 @@
-$NetBSD: distinfo,v 1.1 2020/11/23 09:17:36 pin Exp $
+$NetBSD: distinfo,v 1.1 2020/11/25 11:04:24 pin Exp $
 
 SHA1 (anyhow-1.0.33.crate) = 8bf467b539e3e12bb2d966f2ec4998b88e55e054
 RMD160 (anyhow-1.0.33.crate) = 5149bfd028892e29a56277fd0e76377b0ce90961
