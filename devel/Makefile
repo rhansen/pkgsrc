@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3280 2020/12/04 09:25:33 bsiegert Exp $
+# $NetBSD: Makefile,v 1.3284 2020/12/05 03:22:34 riastradh Exp $
 #
 
 COMMENT=	Development utilities
@@ -2282,6 +2282,8 @@ SUBDIR+=	py-flake8-polyfill
 SUBDIR+=	py-flakes
 SUBDIR+=	py-flaky
 SUBDIR+=	py-flexmock
+SUBDIR+=	py-flit
+SUBDIR+=	py-flit_core
 SUBDIR+=	py-flufl.i18n
 SUBDIR+=	py-flufl.lock
 SUBDIR+=	py-flufl.testing
@@ -2329,6 +2331,7 @@ SUBDIR+=	py-importlib-resources
 SUBDIR+=	py-incremental
 SUBDIR+=	py-iniconfig
 SUBDIR+=	py-inquirer
+SUBDIR+=	py-intelhex
 SUBDIR+=	py-intervaltree
 SUBDIR+=	py-iowait
 SUBDIR+=	py-ipaddr
