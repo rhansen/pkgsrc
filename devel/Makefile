@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3284 2020/12/05 03:22:34 riastradh Exp $
+# $NetBSD: Makefile,v 1.3287 2020/12/06 19:50:14 bsiegert Exp $
 #
 
 COMMENT=	Development utilities
@@ -126,6 +126,7 @@ SUBDIR+=	as31
 SUBDIR+=	asio
 SUBDIR+=	aslc86k
 SUBDIR+=	asm2html
+SUBDIR+=	asmfmt
 SUBDIR+=	astyle
 SUBDIR+=	at-spi
 SUBDIR+=	at-spi2-atk
@@ -315,6 +316,7 @@ SUBDIR+=	erlang-base64url
 SUBDIR+=	erlang-cache_tab
 SUBDIR+=	erlang-ezlib
 SUBDIR+=	erlang-fs
+SUBDIR+=	errcheck
 SUBDIR+=	error
 SUBDIR+=	etrace
 SUBDIR+=	exctags
@@ -2692,6 +2694,7 @@ SUBDIR+=	readline
 SUBDIR+=	rebar
 SUBDIR+=	rebar3
 SUBDIR+=	refinecvs
+SUBDIR+=	reftools
 SUBDIR+=	remake
 SUBDIR+=	reposurgeon
 SUBDIR+=	rgbds
