@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-2020,v 1.6635 2020/12/07 20:05:45 kamil Exp $
+$NetBSD: CHANGES-2020,v 1.6647 2020/12/08 18:54:28 wiz Exp $
 
 Changes to the packages collection and infrastructure in 2020:
 
@@ -9566,6 +9566,7 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated pkgtools/pkg_install to 20201205 [wiz 2020-12-05]
 	Updated devel/php-composer to 2.0.8 [tpaul 2020-12-05]
 	Updated textproc/pugixml to 1.11.1 [wiz 2020-12-06]
+	Added devel/p5-Tie-CPHash version 2.000 [he 2020-12-06]
 	Updated fonts/py-fonttools to 4.17.1 [wiz 2020-12-06]
 	Updated graphics/geeqie to 1.6 [wiz 2020-12-06]
 	Updated graphics/ImageMagick to 7.0.10.46 [wiz 2020-12-06]
@@ -9637,3 +9638,17 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated databases/py-multidict to 5.1.0 [adam 2020-12-07]
 	Updated databases/slony1 to 2.2.10 [adam 2020-12-07]
 	Updated games/pioneers to 15.6 [kamil 2020-12-07]
+	Updated sysutils/fd-find to 8.2.1 [pin 2020-12-08]
+	Updated lang/ocaml to 4.09.1nb1 [he 2020-12-08]
+	Updated misc/9menu to 1.10 [nia 2020-12-08]
+	Updated cross/cc65 to 2.19 [nia 2020-12-08]
+	Updated games/cataclysm-dda to 0.E.2 [nia 2020-12-08]
+	Updated games/cataclysm-dda-sdl to 0.E.2 [nia 2020-12-08]
+	Updated lang/python39 to 3.9.1 [adam 2020-12-08]
+	Updated lang/py39-html-docs to 3.9.1 [adam 2020-12-08]
+	Updated chat/ircd-hybrid to 8.2.36 [fox 2020-12-08]
+	Updated graphics/jasper to 2.0.23 [adam 2020-12-08]
+	Updated textproc/py-pybtex to 0.23.0 [adam 2020-12-08]
+	Updated databases/repmgr to 5.2.1 [adam 2020-12-08]
+	Updated sysutils/psftools to 1.0.14 [fcambus 2020-12-08]
+	Updated security/openssl to 1.1.1i [wiz 2020-12-08]
