@@ -1,4 +1,4 @@
-$NetBSD: CHANGES-2020,v 1.6677 2020/12/09 21:40:48 otis Exp $
+$NetBSD: CHANGES-2020,v 1.6696 2020/12/10 18:09:47 fcambus Exp $
 
 Changes to the packages collection and infrastructure in 2020:
 
@@ -9699,3 +9699,25 @@ Changes to the packages collection and infrastructure in 2020:
 	Updated math/py-networkx to 2.5 [adam 2020-12-09]
 	Updated www/apache-tomcat9 to 9.0.41 [otis 2020-12-09]
 	Updated www/apache-tomcat85 to 8.5.61 [otis 2020-12-09]
+	Updated mail/neomutt to 20201127 [wiz 2020-12-09]
+	Added sysutils/intel-backlight version 20200418 [nia 2020-12-10]
+	Updated devel/ocaml-ppxfind to 1.4 [jaapb 2020-12-10]
+	Updated devel/ocaml-stdlib-shims to 0.2.0nb1 [jaapb 2020-12-10]
+	Updated devel/ocaml-ppxlib to 0.15.0 [jaapb 2020-12-10]
+	Updated devel/ocaml-ppx_deriving to 4.5 [jaapb 2020-12-10]
+	Updated textproc/lowdown to 0.7.5 [fcambus 2020-12-10]
+	Updated databases/pgocaml to 4.2.2 [jaapb 2020-12-10]
+	Updated www/ruby-rouge to 3.26.0 [fcambus 2020-12-10]
+	Added devel/py-jupyter-console version 6.2.0 [ryoon 2020-12-10]
+	Updated net/wireshark to 3.4.1 [adam 2020-12-10]
+	Updated devel/py-faker to 5.0.1 [adam 2020-12-10]
+	Updated devel/py-factory_boy to 3.1.0 [adam 2020-12-10]
+	Updated devel/py-distorm3 to 3.5.1 [adam 2020-12-10]
+	Updated audio/milkytracker to 1.03.00 [nia 2020-12-10]
+	Updated comms/asterisk16 to 16.15.0 [gdt 2020-12-10]
+	Added devel/libyang version 1.0.184 [kardel 2020-12-10]
+	Updated games/rocksndiamonds to 4.2.0.5 [adam 2020-12-10]
+	Updated databases/prometheus to 2.23.0 [adam 2020-12-10]
+	Added net/frr version 7.5 [kardel 2020-12-10]
+	Updated emulators/hatari to 2.3.0 [fcambus 2020-12-10]
+	Updated lang/gnucobol to 3.1.1 [fcambus 2020-12-10]

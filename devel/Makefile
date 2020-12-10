@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3290 2020/12/09 11:21:46 cheusov Exp $
+# $NetBSD: Makefile,v 1.3294 2020/12/10 16:34:53 kardel Exp $
 #
 
 COMMENT=	Development utilities
@@ -850,6 +850,7 @@ SUBDIR+=	libwhisker2
 SUBDIR+=	libwnck
 SUBDIR+=	libwnck3
 SUBDIR+=	libxenserver
+SUBDIR+=	libyang
 SUBDIR+=	libzen
 SUBDIR+=	libzookeeper
 SUBDIR+=	linenoise
@@ -1993,6 +1994,7 @@ SUBDIR+=	p5-TheSchwartz
 SUBDIR+=	p5-Throwable
 SUBDIR+=	p5-Tie-Array-AsHash
 SUBDIR+=	p5-Tie-Array-Sorted
+SUBDIR+=	p5-Tie-CPHash
 SUBDIR+=	p5-Tie-Cache
 SUBDIR+=	p5-Tie-Cache-LRU
 SUBDIR+=	p5-Tie-Cache-LRU-Expires
@@ -2354,6 +2356,7 @@ SUBDIR+=	py-jaraco.itertools
 SUBDIR+=	py-jaraco_util
 SUBDIR+=	py-jersey
 SUBDIR+=	py-joblib
+SUBDIR+=	py-jupyter-console
 SUBDIR+=	py-jupyter_client
 SUBDIR+=	py-jupyter_core
 SUBDIR+=	py-kafka-python
